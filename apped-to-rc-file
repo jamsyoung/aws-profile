@@ -2,7 +2,7 @@
 aws-profile() {
   case "${1}" in
     list)
-      grep "^\\[" "${HOME}/.aws/credentials" | sort
+      grep "^\\[" "${HOME}/.aws/credentials" | sed 's/[][]//g' | sort
       ;;
     set)
       if [ -z "${2}" ]; then
