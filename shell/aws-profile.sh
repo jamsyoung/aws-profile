@@ -1,7 +1,7 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 set -o errexit   # Exit immediately if a pipeline returns a non-zero status (set -e)
-echo $0
+
 case "${1}" in
   list)
     grep "^\\[" "${HOME}/.aws/credentials" | sort
@@ -27,3 +27,4 @@ case "${1}" in
   *)
     echo "Usage: . aws-profile {info|list|set|version}"
 esac
+
