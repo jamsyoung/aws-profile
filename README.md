@@ -5,7 +5,6 @@ Basic AWS Named Profile Manager
 ## Install as a shell function
 
 ```bash
-cd shell/
 cat apped-to-rc-file >> ~/.zshrc
 ```
 
