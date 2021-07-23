@@ -4,14 +4,14 @@ Basic AWS Named Profile Manager done in a variety of ways.
 
 ## As a shell script or shell function
 
-### Install shell script
+### Install as a shell script
 
 ```bash
 cd shell/
 ./local-install.sh
 ```
 
-### Install shell function
+### Install as a shell function
 
 ```bash
 cd shell/
