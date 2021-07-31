@@ -23,6 +23,6 @@ aws-profile() {
       echo "aws-profile v1.0.0"
       ;;
     *)
-      echo "Usage: . aws-profile {info|list|set|version}"
+      echo "Usage: aws-profile {info|list|set|version}"
   esac
 }
